@@ -40,4 +40,11 @@ Observations:
 - **XGBoost**:  
   - Achieved a strong overall fit (Avg R² ≈ 0.94).  
   - RMSE/MAE values are higher in absolute terms due to scale of features, but relative fit was superior.  
-  - Performed competitively without extensive feature engineering.  
+  - Performed competitively without extensive feature engineering.
+ 
+## Business Takeaways
+
+- **Grid Reliability:** More accurate short-term load forecasts allow utilities to balance generation and demand, reducing the risk of blackouts or costly overproduction.  
+- **Cost Savings:** Even a 1% improvement in forecast accuracy can translate into millions saved annually for energy providers due to optimized generation scheduling and reduced reliance on expensive reserve power.  
+- **Market Impact:** Load forecasts feed into electricity market bidding. Better accuracy can improve pricing strategies and operational planning for power companies.  
+- **Model Insight:** ARIMA captured local seasonal behavior but was unstable in highly volatile zones, while XGBoost demonstrated scalable performance across regions. This highlights the trade-off between interpretability (ARIMA) and predictive power (XGBoost).  

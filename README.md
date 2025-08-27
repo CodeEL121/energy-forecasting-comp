@@ -53,4 +53,4 @@ The objective is to forecast **168 hours (7 days)** ahead for each zone.
 - **Model Insight:** ARIMA captured local seasonal behavior but was unstable in highly volatile zones, while XGBoost demonstrated scalable performance across regions. This highlights the trade-off between interpretability (ARIMA) and predictive power (XGBoost).
 
 ## Future Work
-This was completed as part of a group project. If revisited individually, I would explore advanced feature engineering and deployment in a Streamlit dashboard.
+This was completed as part of a **group project**. If revisited individually, I would explore advanced feature engineering and deployment in a Streamlit dashboard.
